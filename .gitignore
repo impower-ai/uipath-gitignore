@@ -1,4 +1,4 @@
-/.local/**/*.!(dll)
-/.settings/Debug/**
-/.settings/Design/**
-/.tmh/**
+.local/**/*.!(dll)
+.settings/Debug/**
+.settings/Design/**
+.tmh/**
