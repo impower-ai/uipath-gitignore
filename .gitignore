@@ -1,4 +1,10 @@
-.local/**/*.!(dll)
+#Ignore .local files without ignoring dataservice object .dlls
+.local
+!.local/**/*.dll
+#Ignore Debug And Design-Time Settings, Don't Ignore Release Settings
 .settings/Debug/
 .settings/Design/
-.tmh/
+#.tmh folder is poorly documented, so not ignoring it currently.
+#.tmh/
+#(Optional) prevent scratch workflows from being commmited, allowings devs to keep local copies
+**/*[Ss]cratch*.xaml
