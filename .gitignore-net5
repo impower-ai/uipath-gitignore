@@ -1,3 +1,4 @@
+#In older versions of studio, local entity dlls are stored in a different directory, hence the below code
 #Ignore .local files without ignoring dataservice object .dlls
 .local/
 !.local/**/*.dll
