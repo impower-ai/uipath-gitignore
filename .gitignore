@@ -10,6 +10,8 @@
 #.tmh/
 #(Optional) prevent scratch workflows from being commmited, allowings devs to keep local copies
 **/*[Ss]cratch*.xaml
+**/*[Ss]cratch*.xaml.json
 *[Ss]cratch*.xaml
+*[Ss]cratch*.xaml.json
 #Ignore temporary files from unsaved .xaml files
 ~*
