@@ -15,3 +15,6 @@
 *[Ss]cratch*.xaml.json
 #Ignore temporary files from unsaved .xaml files
 ~*
+#Ignore Generated Hashes, Reduce Diff Size
+.objects/**/.attributes/SearchHash
+.objects/**/.hash
